@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Biryani:wght@200;700&display=swap");
+
 /* Reset */
 html,
 body,
@@ -145,3 +147,56 @@ select {
 }
 
 /* End of reset */
+
+body {
+  font-family: "Biryani", sans-serif;
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.menu {
+  background-color: #f8cede;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+}
+
+/* Position absolute for nav */
+
+/* nav {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+nav a {
+  font-size: 32px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
