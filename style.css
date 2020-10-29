@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Biryani:wght@200;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Biryani:wght@300;400;700&display=swap");
 
 /* Reset */
 html,
@@ -154,6 +154,10 @@ body {
   font-size: 16px;
   line-height: 1.2;
   font-weight: 200;
+  max-width: 960px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
 a {
@@ -161,9 +165,25 @@ a {
   color: #000000;
 }
 
+h2 {
+  font-size: 64px;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 700;
+}
+
 header {
   padding: 60px 20px;
   text-align: center;
+}
+
+section {
+  margin-bottom: 60px;
 }
 
 .menu {
@@ -199,4 +219,46 @@ nav a {
   position: fixed;
   top: 30px;
   left: 30px;
+}
+
+.natural {
+  position: relative;
+  padding-right: 260px;
+}
+
+.natural h2 {
+  right: 0;
+  position: absolute;
+  max-width: 360px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.one-thing {
+  padding-left: 360px;
+  position: relative;
+}
+
+.one-thing .copy {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  max-width: 480px;
+}
+
+.one-thing p {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+.lookbook {
+  padding: 220px 30px 180px 20px;
+  text-align: center;
+  background-image: url(./assets/image_3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
 }
