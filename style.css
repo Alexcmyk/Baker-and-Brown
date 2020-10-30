@@ -305,3 +305,88 @@ nav a {
 .open {
   transform: translateX(0);
 }
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  .natural {
+    padding-right: 100px;
+  }
+
+  .one-thing {
+    padding-left: 200px;
+  }
+
+  .natural .copy {
+    max-width: 250px;
+  }
+
+  .one-thing .copy p {
+    font-size: 20px;
+    max-width: 300px;
+  }
+  .lookbook {
+    padding: 130px 20px 130px 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: initial;
+  }
+
+  .menu nav {
+    margin-left: 70px;
+  }
+
+  .menu nav a {
+    font-size: 20px;
+  }
+
+  .one-thing .copy p {
+    font-size: 15px;
+    max-width: 175px;
+  }
+
+  .natural .copy {
+    max-width: 150px;
+    display: block;
+  }
+
+  .natural {
+    padding: 0;
+  }
+
+  .one-thing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .one-thing img {
+    order: 2;
+  }
+
+  .one-thing .copy {
+    text-align: center;
+    position: initial;
+    order: 1;
+  }
+
+  .one-thing .copy p {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+}
